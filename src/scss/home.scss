@@ -1,0 +1,203 @@
+//====================================================================================================
+.work {
+  box-shadow: 0px 0px 40px -6px rgba(29, 117, 101, 0.2);
+  &__container {
+  }
+
+  &__title {
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  &__items {
+    margin-top: rem(50);
+    // display: grid;
+    // grid-template-columns: repeat(4, 1fr );
+    display: flex;
+    flex-wrap: wrap;
+    gap: rem(8);
+
+  }
+
+  &__item {
+    border-radius: 30px;
+  }
+
+  &__info {
+  }
+
+  &__btn {
+    margin: 0px auto;
+    margin-top: rem(50);
+    
+  }
+}
+
+.info-work {
+  margin-top: rem(20);
+display: flex;
+gap: rem(20);
+  &__header {
+    flex: 1 0 auto;
+    // width: rem(500);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 138%;
+    text-transform: uppercase; 
+    color: #E0E0E0;
+    position: relative;
+    &::after{
+      content:'';
+      position: absolute;
+      width: rem(4);
+      height: rem(50);
+      top: 0;
+      right: -10px;
+      background: $fonColor;
+    }
+  }
+
+  &__distription {
+  }
+}
+
+.aboutus {
+
+  &__container {
+  }
+
+  &__title {
+  }
+
+  &__content {
+  }
+
+  &__text {
+  }
+
+  &__btn {
+  }
+
+  &__img {
+  }
+}
+.text {
+}
+.servise {
+
+  &__container {
+  }
+}
+.services {
+
+  &__cards {
+  }
+
+  &__card {
+  }
+
+  &__btn {
+  }
+}
+.card-services {
+
+  &__img {
+  }
+
+  &__header {
+  }
+
+  &__distription {
+  }
+}
+.testimonials {
+
+  &__container {
+  }
+
+  &__title {
+  }
+
+  &__cards {
+  }
+
+  &__card {
+  }
+}
+.card-testimonials {
+
+  &__name {
+  }
+
+  &__history {
+  }
+
+  &__stars {
+  }
+}
+.rating {
+
+  &_set {
+  }
+
+  &__body {
+  }
+
+  &__active {
+  }
+
+  &__items {
+  }
+
+  &__item {
+  }
+}
+.contact {
+
+  &__container {
+  }
+
+  &__map {
+  }
+
+  &__content {
+  }
+
+  &__title {
+  }
+
+  &__forms {
+  }
+
+  &__adress {
+  }
+}
+.forms {
+
+  &__form {
+  }
+
+  &__sabmit {
+  }
+
+  &__btn {
+  }
+
+  &__thanks {
+  }
+}
+.adress {
+
+  &__mail {
+  }
+
+  &__phone {
+  }
+
+  &__map {
+  }
+}
+
+//====================================================================================================
