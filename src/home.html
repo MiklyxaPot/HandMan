@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-	@@include('html/_head.htm',{
-	"title":"HomePage"
-	})
-	<body>
-		<div class="wrapper">
-			@@include('html/_header.htm',{})
-			<main class="page">
-        <section class="work__container">
+@@include('html/_head.htm',{
+"title":"HomePage"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/_header.htm',{})
+    <main class="page">
+      <section class="work">
+
+        <div class="work__container">
           <div class="work__title title">How <span>we work</span></div>
           <div class="work__items">
             <div class="work__item">
@@ -37,86 +40,254 @@
           </div>
           <div class="work__info info-work">
             <div class="info-work__header">We know how</div>
-            <div class="info-work__distription text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</div>
+            <div class="info-work__distription text2">Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+              centuries, but also the leap into electronic</div>
           </div>
           <a href="" class="work__btn btn">SERVICES</a>
-        </section>
-        <section class="aboutus__container">
-          <div class="aboutus__title title">About us</div>
-          <div class="aboutus__content">
-            <div class="aboutus__text text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </div>
+
+      </section>
+      <section class="aboutus">
+        <div class="aboutus__container">
+          <div class="aboutus__title title">About <span>us</span></div>
+          <div class="aboutus__body">
+            <div class="aboutus__content">
+              <div class="aboutus__text text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into
+                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release
+                of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+                like Aldus PageMaker including versions of Lorem Ipsum.
+              </div>
+              <a href="" class="aboutus__btn btn">SERVICES</a>
             </div>
-            <a href="" class="aboutus__btn btn">SERVICES</a>
+            <div class="aboutus__img">
+              <img src="@img/work/Rectangle 15.jpg" alt="work man somethink do">
+            </div>
           </div>
-          <div class="aboutus__img">
-            <img src="@img/work/Rectangle 15.jpg" alt="work man somethink do">
-          </div>
-        </section>
-        <div class="servise__container">
+
+        </div>
+      </section>
+      <section class="services">
+        <div class="services__container">
+          <div class="services__title title">Services</div>
           <div class="services__cards">
             <div class="services__card card-services">
               <img class="card-services__img" src="@img/services/ri_quill-pen-fill.svg" alt="Project Development">
-              <div class="card-services__header">card-services</div>
-              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry</div>
+              <div class="card-services__header">Project Development</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
             </div>
-            <a href="" class="services__btn btn">I need help</a>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/floor 1.svg" alt="Flooring Installation">
+              <div class="card-services__header">Flooring Installation</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
+            </div>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/cufflinks 1.svg" alt="Fixture Installation">
+              <div class="card-services__header">Project Development</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
+            </div>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/brickwall 1.svg" alt="Wall Construction">
+              <div class="card-services__header">Project Development</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
+            </div>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/entypo_home.svg" alt="Site Surveys">
+              <div class="card-services__header">Project Development</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
+            </div>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/palette 1.svg" alt="Professional Painting">
+              <div class="card-services__header">Project Development</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
+            </div>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/flash 1.svg" alt="Electrical Work">
+              <div class="card-services__header">Project Development</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
+            </div>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/sign-out-option 1.svg" alt="Interior Build Outs">
+              <div class="card-services__header">Interior Build Outs</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
+            </div>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/link 1.svg" alt="Mill Work">
+              <div class="card-services__header">Mill Work</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
+            </div>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/lightbulb 1.svg" alt="Lighting Installation">
+              <div class="card-services__header">Lighting Installation</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
+            </div>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/pie-chart 1.svg" alt="Graphics">
+              <div class="card-services__header">Graphics</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
+            </div>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/renovation 1.svg" alt="Complete Renovations">
+              <div class="card-services__header">Complete Renovations</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
+            </div>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/shelves 1.svg" alt="Shelving">
+              <div class="card-services__header">Shelving</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
+            </div>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/circular-saw 1.svg" alt="Finish Carpentry">
+              <div class="card-services__header">Finish Carpentry</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
+            </div>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/ri_quill-pen-fill.svg" alt="Display Centers">
+              <div class="card-services__header">Display Centers</div>
+              <div class="card-services__distription text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry</div>
+            </div>
+            <div class="services__card card-services">
+              <img class="card-services__img" src="@img/services/shines 1.svg"
+                alt="Install and Upgrade Existing Decors">
+              <div class="card-services__header">Install and Upgrade Existing Decors</div>
+            </div>
           </div>
-          
+          <a href="" class="services__btn btn btn-clean">I need help</a>
         </div>
-        <section class="testimonials__container">
-          <div class="testimonials__title title"></div>
+      </section>
+
+      <section class="testimonials">
+        <div class="testimonials__container">
+          <div class="testimonials__title title">Testimonials </div>
           <div class="testimonials__cards">
             <div class="testimonials__card card-testimonials">
               <div class="card-testimonials__name">Mr. Dennys</div>
-              <div class="card-testimonials__history">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</div>
-            </div>
-            <div class="card-testimonials__stars">
-              <div class="rating rating_set">
-                <div class="rating__body">
-                  <div class="rating__active"></div>
-                  <div class="rating__items">
-                    <input type="radio" class="rating__item" value="1" name="rating">
-                    <input type="radio" class="rating__item" value="2" name="rating">
-                    <input type="radio" class="rating__item" value="3" name="rating">
-                    <input type="radio" class="rating__item" value="4" name="rating">
-                    <input type="radio" class="rating__item" value="5" name="rating">
+              <div class="card-testimonials__history text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+                five
+                centuries, but also the leap into electronic</div>
+              <div class="card-testimonials__stars">
+                <div class="rating rating_set">
+                  <div class="rating__body">
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                      <input type="radio" class="rating__item" value="1" name="rating">
+                      <input type="radio" class="rating__item" value="2" name="rating">
+                      <input type="radio" class="rating__item" value="3" name="rating">
+                      <input type="radio" class="rating__item" value="4" name="rating">
+                      <input type="radio" class="rating__item" value="5" name="rating">
+                    </div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div class="testimonials__card card-testimonials">
+              <div class="card-testimonials__name">Mr. Dennys</div>
+              <div class="card-testimonials__history text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+                five
+                centuries, but also the leap into electronic</div>
+              <div class="card-testimonials__stars">
+                <div class="rating rating_set">
+                  <div class="rating__body">
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                      <input type="radio" class="rating__item" value="1" name="rating">
+                      <input type="radio" class="rating__item" value="2" name="rating">
+                      <input type="radio" class="rating__item" value="3" name="rating">
+                      <input type="radio" class="rating__item" value="4" name="rating">
+                      <input type="radio" class="rating__item" value="5" name="rating">
+                    </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+            <div class="testimonials__card card-testimonials">
+              <div class="card-testimonials__name">Mr. Dennys</div>
+              <div class="card-testimonials__history text2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+                five
+                centuries, but also the leap into electronic</div>
+              <div class="card-testimonials__stars">
+                <div class="rating rating_set">
+                  <div class="rating__body">
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                      <input type="radio" class="rating__item" value="1" name="rating">
+                      <input type="radio" class="rating__item" value="2" name="rating">
+                      <input type="radio" class="rating__item" value="3" name="rating">
+                      <input type="radio" class="rating__item" value="4" name="rating">
+                      <input type="radio" class="rating__item" value="5" name="rating">
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <a href="" class="services__btn btn">I need help</a>
-  
-        </section>
-        <section class="contact__container">
-          <div class="contact__map"></div>
-          <div class="contact__content">
-            <div class="contact__title title">About us</div>
-            <div class="contact__forms forms">
-              <form action="" class="forms__form">
-                <input type="text" name="text" id="" placeholder="'What your name">
-                <input type="email" name="mail" id="" placeholder="E-mail">
-                <input type="tel" name="phone" id="" placeholder="Number phone">
-                <input type="text" name="message" id=""  placeholder="Message">
-                
-              </form>
+          <a href="" class="services__btn btn btn-clean">I need help</a>
+        </div>
+      </section>
+      <section class="contact__container">
+
+        <div class="contact__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d50756.572103958395!2d-121.90034200000001!3d37.335743!3m2!1i1024!2i768!4f13.1!2m1!1s2715%20Ash%20Dr.%20San%20Jose%2C%20South%20Dakota%2083475!5e0!3m2!1sru!2str!4v1684954431024!5m2!1sru!2str"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact__content">
+          <div class="contact__title title title-left">Contact us</div>
+          <div class="contact__forms forms">
+            <form action="" class="forms__form">
+              <input type="text" name="text" id="" placeholder="What your name">
+              <input type="email" name="mail" id="" placeholder="E-mail">
+              <input type="tel" name="phone" id="" placeholder="Number phone">
+              <input type="text" name="message" id="" placeholder="Message">
+
+
               <div class="forms__sabmit">
                 <button type="submit" class="forms__btn btn">Submit</button>
                 <div class="forms__thanks">Thank you for contacting us! You will get an Answer soon</div>
               </div>
-            </div>
-            <div class="contact__adress">
+            </form>
+            <div class="forms__line"></div>
+            <div class="contact__adress adress">
               <a href="mailto:test@gmail.com" class="adress__mail">test@gmail.com</a>
               <a href="tel:3035550105" class="adress__phone">(303) 555-0105</a>
               <a href="" class="adress__map">2715 Ash Dr. San Jose, South Dakota 83475</a>
             </div>
           </div>
-        </section>
-			</main>
-      
-			@@include('html/_footer.htm',{})
-		</div>
-		@@include('html/_js.htm',{})
-	</body>
+        </div>
+      </section>
+    </main>
+
+    @@include('html/_footer.htm',{})
+  </div>
+  @@include('html/_js.htm',{})
+</body>
+
 </html>
