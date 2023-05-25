@@ -1,0 +1,94 @@
+// Заголовки, загальні БЕМ блоки та інше...
+.title {
+  position: relative;
+  font-family: 'Poppins';
+  font-weight: 900;
+  @include adaptiveValue("font-size", 36, 20);
+  line-height: math.div(63 , 36);
+  text-transform: uppercase;
+  color: $mainColor;
+  &::after{
+    content:'';
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    bottom: -10px;
+    left: 46%;
+    background: $fonColor;
+  }
+}
+.title-left{
+  &::after{
+    content:'';
+    left: 1%;
+  }
+}
+
+.title span{
+  color: $fonColor;
+}
+.text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 151.5%;
+  color: $textColor;
+}
+.btn {
+  display: block;
+  width: 168px;
+  height: 60px;
+  padding: 18px 0;
+  background: $fonColor;
+  box-shadow: 0px 20px 20px -12px rgba(61, 218, 190, 0.4);
+  border-radius: 92px;
+  font-family: 'Poppins';
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 151.5%;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+.btn:hover{
+  background: #213C37;
+  cursor: pointer;
+
+}
+
+.btn-clean{
+  color: $fonColor;
+  font-family: 'Poppins';
+  background: #fff;
+  border: 1px solid $fonColor;
+ transition: all 0.3s ease 0s;
+}
+.btn-clean:hover{
+  background: $fonColor;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-noborder{
+  color: #BDBDBD;
+  border: none;
+  background: none;
+  box-shadow: none;
+  transition: all 0.3s ease 0s;
+}
+.btn-noborder:hover{
+  background: none;
+  color: $fonColor;
+}
+
+.text2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 138.5%;
+  color: $textColor;
+}
